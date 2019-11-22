@@ -14,11 +14,48 @@ code {
 
 .listBoxes {
   width: 25vw;
-  height: 40vw;
+  height: 50vw;
   background-color: gray;
 }
 
 .listBoxes img {
-  width: 50px;
+  width: 75px;
   height: 50px;
+}
+.NavBar {
+  width: 100vw;
+  height: 65px;
+  background-color: #ffffff;
+}
+.NavList {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  height: 65px;
+}
+
+.firstImages {
+  width: 109px;
+  height: 24px;
+  font-family: OldStandardTT;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.searchBar {
+  margin-left: 100px;
+  width: 410px;
+  height: 41px;
+  border-radius: 26px;
+  box-shadow: 0 3px 6px 0 rgba(131, 131, 131, 0.47);
+  background-color: #ffffff;
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import craiglist from "./craiglist.json";
 import React, { Component } from "react";
+import NavBar from "./components/NavBar";
 
 export default class App extends Component {
   state = {
@@ -26,8 +27,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        hello
-        {this.getObjects()}
+        <NavBar />
+        <div>{this.getObjects()}</div>
       </div>
     );
   }
