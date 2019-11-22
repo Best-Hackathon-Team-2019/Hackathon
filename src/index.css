@@ -13,8 +13,6 @@ code {
 }
 
 .listBoxes {
-  width: 25vw;
-  height: 50vw;
   background-color: gray;
 }
 
@@ -28,7 +26,6 @@ code {
   background-color: #ffffff;
 }
 .NavList {
-  margin-top: -20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
