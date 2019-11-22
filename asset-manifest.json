@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Hackathon/static/css/main.b100e6da.chunk.css",
-    "main.js": "/Hackathon/static/js/main.2c72263b.chunk.js",
-    "main.js.map": "/Hackathon/static/js/main.2c72263b.chunk.js.map",
+    "main.css": "/Hackathon/static/css/main.97307a30.chunk.css",
+    "main.js": "/Hackathon/static/js/main.f154b67b.chunk.js",
+    "main.js.map": "/Hackathon/static/js/main.f154b67b.chunk.js.map",
     "runtime-main.js": "/Hackathon/static/js/runtime-main.315a07a1.js",
     "runtime-main.js.map": "/Hackathon/static/js/runtime-main.315a07a1.js.map",
-    "static/js/2.6c0f0d91.chunk.js": "/Hackathon/static/js/2.6c0f0d91.chunk.js",
-    "static/js/2.6c0f0d91.chunk.js.map": "/Hackathon/static/js/2.6c0f0d91.chunk.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/Hackathon/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.7fd8f43d.chunk.js": "/Hackathon/static/js/2.7fd8f43d.chunk.js",
+    "static/js/2.7fd8f43d.chunk.js.map": "/Hackathon/static/js/2.7fd8f43d.chunk.js.map",
     "index.html": "/Hackathon/index.html",
-    "precache-manifest.001f34d0030ca45452f96a50c55e8c4b.js": "/Hackathon/precache-manifest.001f34d0030ca45452f96a50c55e8c4b.js",
+    "precache-manifest.c0495d40b96ee31728b20d849a7fe0b5.js": "/Hackathon/precache-manifest.c0495d40b96ee31728b20d849a7fe0b5.js",
     "service-worker.js": "/Hackathon/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/Hackathon/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/Hackathon/static/media/logo.25bf045c.svg"
+    "static/css/2.b0bb7f2c.chunk.css.map": "/Hackathon/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.97307a30.chunk.css.map": "/Hackathon/static/css/main.97307a30.chunk.css.map",
+    "static/media/map.png": "/Hackathon/static/media/map.6970150b.png",
+    "static/media/noun_Peace_1039545.png": "/Hackathon/static/media/noun_Peace_1039545.da765037.png",
+    "static/media/userProfile.svg": "/Hackathon/static/media/userProfile.ebd28a24.svg",
+    "static/media/yellowStar.svg": "/Hackathon/static/media/yellowStar.e860c671.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.315a07a1.js",
-    "static/js/2.6c0f0d91.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.2c72263b.chunk.js"
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.7fd8f43d.chunk.js",
+    "static/css/main.97307a30.chunk.css",
+    "static/js/main.f154b67b.chunk.js"
   ]
 }
