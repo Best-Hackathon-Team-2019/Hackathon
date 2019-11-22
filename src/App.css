@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+
+.card img {
+  width: 60%;
+  height:60%
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#col-5{
+  height:200px;
+  overflow: scroll;
+}
+
+#col-6{
+  float:center;
+}
+.list-group{
+  height:100vh;
+  overflow:scroll;
+}
