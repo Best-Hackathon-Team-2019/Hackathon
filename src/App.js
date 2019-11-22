@@ -1,5 +1,5 @@
 
-import logo from './logo.svg';
+
 import './App.css';
 import craiglist from "./craiglist.json"
 
@@ -10,19 +10,30 @@ export default class App extends Component {
     objects:craiglist
   }
   
+
+  
   
   getObjects=()=>{
-  const listArray = this.state.objects.map((listing,i)=>{
+    const listArray = this.state.objects
+    const listArray1 = Array.from(new Set(listArray))
+    const listArray2 = listArray1.map((listing,i)=>{
+      
+  
     return( 
       <div>
       {console.log(listing.Title)}
   <h3>{listing.Title}</h3>
+  <h6>{listing.Description}</h6>
+    
       </div>
     )
 
     
   })
+  return listArray2
   }
+
+  
   // getContacts = () => {
   //   let contactArray = this.state.showContacts.map((thisContact,i) => {
   //     return (
