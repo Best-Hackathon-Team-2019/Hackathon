@@ -3,7 +3,7 @@ import craiglist from "./craiglist.json";
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import map from "./map.jpg"
+import map from "./map.png"
 
 export default class App extends Component {
   state = {
@@ -72,7 +72,7 @@ export default class App extends Component {
               <ui className="list-group">{this.getObjects()}</ui>
             </span>
             <span className="col-4">
-              <img src={map} alt="blah" image-size="cover"></img>
+              <img src={map} alt="blah" width="449px" ></img>
             </span>
           </div>
         </div>
