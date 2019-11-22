@@ -1,31 +1,34 @@
-import React, { Component } from "react";
-
 import "./App.css";
 import craiglist from "./craiglist.json";
-import axios from "axios";
+import React, { Component } from "react";
 
 export default class App extends Component {
   state = {
-    listings: craiglist
+    objects: craiglist,
+    prices: null
   };
 
-  componentDidMount() {
-    this.fetchList();
-  }
-
-  fetchList = async () => {
-    try {
-      const { data } = await axios.get(
-        `https://api.spoonacular.com/recipes/${this.props.match.params.id}/analyzedInstructions?apiKey=${process.env.REACT_APP_SPOON}`
+  getObjects = () => {
+    const listArray = this.state.objects.map((listing, i) => {
+      return (
+        <div>
+          <div className="listBoxes">
+            {console.log(listing)}
+            <img src={listing.Images} alt="Image not found" />
+            <h3>{listing.Title}</h3>
+          </div>
+        </div>
       );
-      this.setState({ listings: data });
-      console.log(data);
-    } catch (e) {
-      console.log("Error fetching lists", e);
-    }
+    });
+    return listArray;
   };
 
   render() {
-    return <div>hello</div>;
+    return (
+      <div>
+        hello
+        {this.getObjects()}
+      </div>
+    );
   }
 }
