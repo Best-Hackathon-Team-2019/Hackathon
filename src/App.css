@@ -52,3 +52,6 @@
   height: 100vh;
   overflow: scroll;
 }
+.col-3{
+  text-emphasis: center;
+}
