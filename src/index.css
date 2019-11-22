@@ -32,6 +32,10 @@ code {
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
   height: 65px;
+  color: #707070;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
 }
 
 .firstImages {
@@ -49,10 +53,19 @@ code {
 }
 
 .searchBar {
-  margin-left: 100px;
   width: 410px;
   height: 41px;
   border-radius: 26px;
   box-shadow: 0 3px 6px 0 rgba(131, 131, 131, 0.47);
   background-color: #ffffff;
+}
+
+.NavBar img {
+  width: 30px;
+  height: 30px;
+}
+
+.user img {
+  width: 10px;
+  height: 10px;
 }
