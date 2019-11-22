@@ -2,14 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import craiglist from "./craiglist.json"
-console.log('hi')
-
-function App() {
-  return (
-    <div className="App">
-     hello
-    </div>
-  );
+state = {
+  objects:craiglist
 }
 
-export default App;
+
+getObjects=()=>{
+
+}
+
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        hello
+      </div>
+    )
+  }
+}
+
+
